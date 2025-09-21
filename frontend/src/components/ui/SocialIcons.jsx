@@ -86,6 +86,19 @@ export const GoogleIcon = ({ className = "w-6 h-6", ...props }) => (
   </svg>
 );
 
+export const BehanceIcon = ({ className = "w-6 h-6", ...props }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 1.295.987 1.976 2.035 1.976 1.164 0 1.731-.549 2.068-1.379l2.652.532zm-7.684-4.098h3.928c-.121-1.123-.871-1.707-1.916-1.707-1.145 0-1.847.584-2.012 1.707zM1.5 9.5h6v-2h-6v2zm6.814 4.967c0 1.627-1.183 2.533-3.158 2.533H0v-12h5.062c1.926 0 3.12.871 3.12 2.427 0 .987-.505 1.766-1.353 2.101 1.148.308 1.985 1.008 1.985 2.439zm-5.314-2.917h2.5c.898 0 1.326-.366 1.326-1.05 0-.726-.442-1.05-1.326-1.05h-2.5v2.1zm0 4.95h2.634c1.012 0 1.483-.366 1.483-1.15 0-.853-.471-1.2-1.483-1.2h-2.634v2.35z"/>
+  </svg>
+);
+
+// Social Icon Wrapper Component with hover effects
+export const SocialIconWrapper = ({ children, className = "" }) => (
+  <div className={`social-icon-wrapper ${className}`}>
+    {children}
+  </div>
+);
+
 // Helper component to render the appropriate social icon
 export const SocialIcon = ({ platform, className = "w-6 h-6", ...props }) => {
   const icons = {
@@ -102,6 +115,7 @@ export const SocialIcon = ({ platform, className = "w-6 h-6", ...props }) => {
     location: LocationIcon,
     website: WebsiteIcon,
     google: GoogleIcon,
+    behance: BehanceIcon,
   };
 
   const Icon = icons[platform?.toLowerCase()] || WebsiteIcon;

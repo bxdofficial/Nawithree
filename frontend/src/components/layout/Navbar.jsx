@@ -4,6 +4,7 @@ import { Menu, Transition } from '@headlessui/react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useTheme } from '../../contexts/ThemeContext';
 import { t } from '../../utils/translations';
+import NawiLogo from '../ui/NawiLogo';
 import { 
   HomeIcon, 
   BriefcaseIcon, 
@@ -45,17 +46,9 @@ const Navbar = () => {
           {/* Logo */}
           <Link 
             to="/" 
-            className="flex items-center space-x-2 group"
+            className="flex items-center group hover:scale-105 transition-transform duration-200"
           >
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-day to-primary-night flex items-center justify-center">
-              <span className="text-white font-bold text-xl">N</span>
-            </div>
-            <span 
-              className="text-2xl font-bold transition-colors"
-              style={{ color: themeColors.brandName }}
-            >
-              {t('brand.name', language)}
-            </span>
+            <NawiLogo variant={isDarkMode ? "dark" : "default"} className="h-10" />
           </Link>
 
           {/* Desktop Navigation */}

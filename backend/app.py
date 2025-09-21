@@ -216,7 +216,7 @@ def get_services():
     } for s in services])
 
 @app.route('/api/services', methods=['POST'])
-@admin_required()
+@admin_required
 def create_service():
     data = request.get_json()
     service = Service(**data)
@@ -250,7 +250,7 @@ def get_portfolio():
     } for p in portfolio])
 
 @app.route('/api/portfolio', methods=['POST'])
-@admin_required()
+@admin_required
 def create_portfolio():
     data = request.get_json()
     portfolio = Portfolio(**data)
@@ -342,7 +342,7 @@ def create_design_request():
         return jsonify({'message': 'An error occurred. Please try again.'}), 500
 
 @app.route('/api/requests')
-@user_required()
+@user_required
 def get_my_requests():
     user_id = get_jwt_identity()
     requests = DesignRequest.query.filter_by(user_id=user_id).order_by(DesignRequest.created_at.desc()).all()
@@ -358,7 +358,7 @@ def get_my_requests():
 
 # Admin Routes
 @app.route('/api/admin/requests')
-@admin_required()
+@admin_required
 def get_all_requests():
     requests = DesignRequest.query.order_by(DesignRequest.created_at.desc()).all()
     
@@ -378,7 +378,7 @@ def get_all_requests():
     } for r in requests])
 
 @app.route('/api/admin/requests/<int:request_id>', methods=['PATCH'])
-@admin_required()
+@admin_required
 def update_request_status(request_id):
     design_request = DesignRequest.query.get_or_404(request_id)
     data = request.get_json()
@@ -394,7 +394,7 @@ def update_request_status(request_id):
     return jsonify({'message': 'Request updated successfully'})
 
 @app.route('/api/admin/messages')
-@admin_required()
+@admin_required
 def get_contact_messages():
     messages = ContactMessage.query.order_by(ContactMessage.created_at.desc()).all()
     
@@ -411,7 +411,7 @@ def get_contact_messages():
     } for m in messages])
 
 @app.route('/api/admin/messages/<int:message_id>/read', methods=['PATCH'])
-@admin_required()
+@admin_required
 def mark_message_read(message_id):
     message = ContactMessage.query.get_or_404(message_id)
     message.is_read = True
@@ -420,7 +420,7 @@ def mark_message_read(message_id):
 
 # File Upload Routes
 @app.route('/api/upload', methods=['POST'])
-@admin_required()
+@admin_required
 def upload_file():
     if 'file' not in request.files:
         return jsonify({'message': 'No file provided'}), 400
