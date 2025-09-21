@@ -1,0 +1,313 @@
+2025-09-21 12:48:02,540 INFO RPC interface 'supervisor' initialized
+2025-09-21 12:48:02,541 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-09-21 12:48:02,543 INFO daemonizing the supervisord process
+2025-09-21 12:48:02,543 INFO set current directory: '/home/user/webapp/backend'
+2025-09-21 12:48:02,544 INFO supervisord started with pid 1472
+2025-09-21 12:48:03,547 INFO spawned: 'flask-backend' with pid 1475
+2025-09-21 12:48:04,724 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:04,724 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:05,728 INFO spawned: 'flask-backend' with pid 1481
+2025-09-21 12:48:06,712 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:07,715 INFO spawned: 'flask-backend' with pid 1486
+2025-09-21 12:48:08,734 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:08,735 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:09,738 INFO spawned: 'flask-backend' with pid 1491
+2025-09-21 12:48:10,720 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:11,723 INFO spawned: 'flask-backend' with pid 1496
+2025-09-21 12:48:12,742 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:12,742 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:13,745 INFO spawned: 'flask-backend' with pid 1501
+2025-09-21 12:48:14,748 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:14,749 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:15,752 INFO spawned: 'flask-backend' with pid 1506
+2025-09-21 12:48:16,740 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:17,745 INFO spawned: 'flask-backend' with pid 1523
+2025-09-21 12:48:18,857 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:18,857 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:19,861 INFO spawned: 'flask-backend' with pid 1529
+2025-09-21 12:48:20,902 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:21,902 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:22,906 INFO spawned: 'flask-backend' with pid 1536
+2025-09-21 12:48:23,886 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:24,888 INFO spawned: 'flask-backend' with pid 1541
+2025-09-21 12:48:25,958 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:26,959 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:27,962 INFO spawned: 'flask-backend' with pid 1548
+2025-09-21 12:48:29,141 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:29,141 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:30,155 INFO spawned: 'flask-backend' with pid 1553
+2025-09-21 12:48:31,237 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:32,238 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:33,241 INFO spawned: 'flask-backend' with pid 1560
+2025-09-21 12:48:35,225 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:35,225 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:36,228 INFO spawned: 'flask-backend' with pid 1567
+2025-09-21 12:48:37,266 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:37,266 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:38,269 INFO spawned: 'flask-backend' with pid 1601
+2025-09-21 12:48:39,257 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:40,260 INFO spawned: 'flask-backend' with pid 1606
+2025-09-21 12:48:41,238 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:43,242 INFO spawned: 'flask-backend' with pid 1613
+2025-09-21 12:48:44,245 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:44,246 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:45,249 INFO spawned: 'flask-backend' with pid 1618
+2025-09-21 12:48:46,237 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:47,240 INFO spawned: 'flask-backend' with pid 1623
+2025-09-21 12:48:48,234 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:50,239 INFO spawned: 'flask-backend' with pid 1632
+2025-09-21 12:48:51,240 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:51,241 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:52,244 INFO spawned: 'flask-backend' with pid 1637
+2025-09-21 12:48:53,240 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:54,243 INFO spawned: 'flask-backend' with pid 1642
+2025-09-21 12:48:55,264 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:55,264 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:56,268 INFO spawned: 'flask-backend' with pid 1647
+2025-09-21 12:48:57,282 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:57,282 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:48:58,286 INFO spawned: 'flask-backend' with pid 1652
+2025-09-21 12:48:59,288 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:48:59,288 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:00,291 INFO spawned: 'flask-backend' with pid 1657
+2025-09-21 12:49:01,333 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:49:01,333 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:02,336 INFO spawned: 'flask-backend' with pid 1662
+2025-09-21 12:49:03,338 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:49:03,339 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:04,342 INFO spawned: 'flask-backend' with pid 1667
+2025-09-21 12:49:05,402 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:49:05,402 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:06,405 INFO spawned: 'flask-backend' with pid 1672
+2025-09-21 12:49:07,396 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:08,399 INFO spawned: 'flask-backend' with pid 1677
+2025-09-21 12:49:09,410 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:49:09,411 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:10,414 INFO spawned: 'flask-backend' with pid 1682
+2025-09-21 12:49:11,361 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:12,364 INFO spawned: 'flask-backend' with pid 1687
+2025-09-21 12:49:13,341 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:15,346 INFO spawned: 'flask-backend' with pid 1694
+2025-09-21 12:49:16,320 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:19,326 INFO spawned: 'flask-backend' with pid 1733
+2025-09-21 12:49:20,269 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:49:21,270 INFO gave up: flask-backend entered FATAL state, too many start retries too quickly
+2025-09-21 12:53:37,947 INFO spawned: 'flask-backend' with pid 2972
+2025-09-21 12:53:38,940 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:39,945 INFO spawned: 'flask-backend' with pid 2977
+2025-09-21 12:53:40,950 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:40,950 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:41,953 INFO spawned: 'flask-backend' with pid 2982
+2025-09-21 12:53:43,003 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:43,003 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:44,007 INFO spawned: 'flask-backend' with pid 2987
+2025-09-21 12:53:45,014 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:45,014 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:46,019 INFO spawned: 'flask-backend' with pid 2994
+2025-09-21 12:53:47,034 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:47,035 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:48,039 INFO spawned: 'flask-backend' with pid 2999
+2025-09-21 12:53:49,100 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:49,100 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:50,112 INFO spawned: 'flask-backend' with pid 3004
+2025-09-21 12:53:51,196 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:51,196 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:52,199 INFO spawned: 'flask-backend' with pid 3011
+2025-09-21 12:53:53,205 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:53,205 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:54,209 INFO spawned: 'flask-backend' with pid 3018
+2025-09-21 12:53:55,379 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:55,379 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:56,383 INFO spawned: 'flask-backend' with pid 3023
+2025-09-21 12:53:57,456 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:57,457 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:53:58,460 INFO spawned: 'flask-backend' with pid 3028
+2025-09-21 12:53:59,572 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:53:59,572 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:00,575 INFO spawned: 'flask-backend' with pid 3033
+2025-09-21 12:54:01,635 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:01,635 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:02,638 INFO spawned: 'flask-backend' with pid 3038
+2025-09-21 12:54:03,698 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:03,698 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:04,701 INFO spawned: 'flask-backend' with pid 3043
+2025-09-21 12:54:05,790 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:05,790 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:06,794 INFO spawned: 'flask-backend' with pid 3048
+2025-09-21 12:54:07,836 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:07,837 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:08,840 INFO spawned: 'flask-backend' with pid 3053
+2025-09-21 12:54:09,876 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:09,876 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:10,879 INFO spawned: 'flask-backend' with pid 3058
+2025-09-21 12:54:11,925 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:11,925 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:12,928 INFO spawned: 'flask-backend' with pid 3063
+2025-09-21 12:54:13,755 INFO waiting for flask-backend to stop
+2025-09-21 12:54:13,760 WARN stopped: flask-backend (terminated by SIGTERM)
+2025-09-21 12:54:13,765 INFO spawned: 'flask-backend' with pid 3068
+2025-09-21 12:54:14,801 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:14,802 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:14,804 INFO spawned: 'flask-backend' with pid 3071
+2025-09-21 12:54:15,895 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:15,895 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:16,899 INFO spawned: 'flask-backend' with pid 3078
+2025-09-21 12:54:17,947 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:17,947 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:18,951 INFO spawned: 'flask-backend' with pid 3083
+2025-09-21 12:54:20,028 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:20,028 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:21,032 INFO spawned: 'flask-backend' with pid 3088
+2025-09-21 12:54:22,095 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:22,095 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:23,099 INFO spawned: 'flask-backend' with pid 3097
+2025-09-21 12:54:24,152 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:24,152 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:25,155 INFO spawned: 'flask-backend' with pid 3102
+2025-09-21 12:54:26,190 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:26,190 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:27,193 INFO spawned: 'flask-backend' with pid 3107
+2025-09-21 12:54:28,256 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:28,256 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:29,259 INFO spawned: 'flask-backend' with pid 3118
+2025-09-21 12:54:30,417 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:30,418 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:31,420 INFO spawned: 'flask-backend' with pid 3123
+2025-09-21 12:54:32,529 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:32,529 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:33,533 INFO spawned: 'flask-backend' with pid 3128
+2025-09-21 12:54:34,664 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:34,664 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:35,667 INFO spawned: 'flask-backend' with pid 3133
+2025-09-21 12:54:36,769 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:36,769 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:37,773 INFO spawned: 'flask-backend' with pid 3138
+2025-09-21 12:54:38,809 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:38,809 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:39,812 INFO spawned: 'flask-backend' with pid 3143
+2025-09-21 12:54:40,856 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:40,856 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:41,860 INFO spawned: 'flask-backend' with pid 3148
+2025-09-21 12:54:42,867 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:42,867 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:43,870 INFO spawned: 'flask-backend' with pid 3153
+2025-09-21 12:54:44,907 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:44,907 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:45,911 INFO spawned: 'flask-backend' with pid 3158
+2025-09-21 12:54:46,948 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:46,949 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:47,952 INFO spawned: 'flask-backend' with pid 3163
+2025-09-21 12:54:49,001 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:49,001 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:50,005 INFO spawned: 'flask-backend' with pid 3168
+2025-09-21 12:54:51,059 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:51,059 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:52,062 INFO spawned: 'flask-backend' with pid 3173
+2025-09-21 12:54:53,125 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:53,126 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:54,129 INFO spawned: 'flask-backend' with pid 3178
+2025-09-21 12:54:55,178 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:55,178 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:56,181 INFO spawned: 'flask-backend' with pid 3183
+2025-09-21 12:54:57,252 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:57,253 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:54:58,256 INFO spawned: 'flask-backend' with pid 3190
+2025-09-21 12:54:59,290 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:54:59,291 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:00,294 INFO spawned: 'flask-backend' with pid 3195
+2025-09-21 12:55:01,336 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:01,336 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:02,339 INFO spawned: 'flask-backend' with pid 3200
+2025-09-21 12:55:03,391 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:03,391 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:04,394 INFO spawned: 'flask-backend' with pid 3205
+2025-09-21 12:55:05,437 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:05,437 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:06,440 INFO spawned: 'flask-backend' with pid 3210
+2025-09-21 12:55:07,485 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:07,485 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:08,488 INFO spawned: 'flask-backend' with pid 3215
+2025-09-21 12:55:09,532 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:09,532 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:10,535 INFO spawned: 'flask-backend' with pid 3220
+2025-09-21 12:55:11,573 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:11,573 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:12,577 INFO spawned: 'flask-backend' with pid 3225
+2025-09-21 12:55:13,620 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:13,620 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:13,698 INFO spawned: 'flask-backend' with pid 3230
+2025-09-21 12:55:13,706 INFO waiting for flask-backend to stop
+2025-09-21 12:55:13,706 WARN stopped: flask-backend (terminated by SIGTERM)
+2025-09-21 12:55:13,710 INFO spawned: 'flask-backend' with pid 3231
+2025-09-21 12:55:14,757 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:14,757 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:14,759 INFO spawned: 'flask-backend' with pid 3234
+2025-09-21 12:55:15,805 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:15,805 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:16,808 INFO spawned: 'flask-backend' with pid 3239
+2025-09-21 12:55:17,855 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:17,855 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:18,858 INFO spawned: 'flask-backend' with pid 3244
+2025-09-21 12:55:19,875 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:19,876 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:20,879 INFO spawned: 'flask-backend' with pid 3249
+2025-09-21 12:55:21,894 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:21,894 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:22,896 INFO spawned: 'flask-backend' with pid 3256
+2025-09-21 12:55:23,932 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:23,932 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:24,935 INFO spawned: 'flask-backend' with pid 3261
+2025-09-21 12:55:25,992 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:25,992 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:26,996 INFO spawned: 'flask-backend' with pid 3266
+2025-09-21 12:55:28,083 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:28,083 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:29,087 INFO spawned: 'flask-backend' with pid 3271
+2025-09-21 12:55:30,202 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:30,203 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:31,206 INFO spawned: 'flask-backend' with pid 3282
+2025-09-21 12:55:32,271 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:32,271 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:33,274 INFO spawned: 'flask-backend' with pid 3287
+2025-09-21 12:55:34,445 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:34,445 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:35,448 INFO spawned: 'flask-backend' with pid 3294
+2025-09-21 12:55:36,599 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:36,599 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:37,603 INFO spawned: 'flask-backend' with pid 3303
+2025-09-21 12:55:38,686 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:38,686 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:39,690 INFO spawned: 'flask-backend' with pid 3308
+2025-09-21 12:55:40,745 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:40,746 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:41,749 INFO spawned: 'flask-backend' with pid 3313
+2025-09-21 12:55:42,814 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:42,814 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:43,817 INFO spawned: 'flask-backend' with pid 3321
+2025-09-21 12:55:44,855 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:44,855 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:45,858 INFO spawned: 'flask-backend' with pid 3326
+2025-09-21 12:55:46,945 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:46,946 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:47,949 INFO spawned: 'flask-backend' with pid 3331
+2025-09-21 12:55:48,969 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:48,969 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:49,972 INFO spawned: 'flask-backend' with pid 3338
+2025-09-21 12:55:51,215 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:51,215 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:52,218 INFO spawned: 'flask-backend' with pid 3417
+2025-09-21 12:55:53,220 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:54,462 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:55,466 INFO spawned: 'flask-backend' with pid 3509
+2025-09-21 12:55:56,555 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:55:57,556 WARN exited: flask-backend (exit status 1; not expected)
+2025-09-21 12:55:58,560 INFO spawned: 'flask-backend' with pid 3596
+2025-09-21 12:55:59,561 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 12:56:02,168 INFO waiting for flask-backend to stop
+2025-09-21 12:56:02,449 INFO stopped: flask-backend (exit status 0)
+2025-09-21 12:56:02,455 INFO spawned: 'flask-backend' with pid 3649
+2025-09-21 12:56:04,210 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-21 13:02:09,814 INFO waiting for flask-backend to stop
+2025-09-21 13:02:10,195 INFO stopped: flask-backend (exit status 0)
+2025-09-21 13:02:10,208 INFO spawned: 'flask-backend' with pid 5452
+2025-09-21 13:02:11,211 INFO success: flask-backend entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

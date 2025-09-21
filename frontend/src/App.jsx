@@ -7,11 +7,10 @@ import { ThemeProvider } from './contexts/ThemeContext'
 // Layout Components
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
-import ParticlesBackground from './components/ui/ParticlesBackground'
+import DesignToolsBackground from './components/ui/DesignToolsBackground'
 
 // Pages
 import Home from './pages/Home'
-import About from './pages/About'
 import Services from './pages/Services'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
@@ -25,13 +24,12 @@ function App() {
     <ThemeProvider>
       <AuthProvider>
         <div className="min-h-screen relative">
-          <ParticlesBackground />
+          <DesignToolsBackground />
           <div className="relative z-10">
             <Navbar />
             <AnimatePresence mode="wait">
               <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/contact" element={<Contact />} />
